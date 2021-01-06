@@ -196,6 +196,7 @@ func (app *Application) featureCommands() []tool.Application {
 		&symbols{app: app},
 		&workspace{app: app},
 		&workspaceSymbol{app: app},
+		&completion{app: app},
 	}
 }
 

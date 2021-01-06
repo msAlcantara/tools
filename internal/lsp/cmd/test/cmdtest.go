@@ -68,10 +68,6 @@ func (r *runner) CodeLens(t *testing.T, uri span.URI, want []protocol.CodeLens) 
 	//TODO: add command line completions tests when it works
 }
 
-func (r *runner) Completion(t *testing.T, src span.Span, test tests.Completion, items tests.CompletionItems) {
-	//TODO: add command line completions tests when it works
-}
-
 func (r *runner) CompletionSnippet(t *testing.T, src span.Span, expected tests.CompletionSnippet, placeholders bool, items tests.CompletionItems) {
 	//TODO: add command line completions tests when it works
 }
